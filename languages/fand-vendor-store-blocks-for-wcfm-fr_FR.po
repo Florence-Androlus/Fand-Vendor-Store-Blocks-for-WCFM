@@ -1,0 +1,269 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Fand Vendor Store Blocks for WCFM 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fand-vendor-store-blocks-for-wcfm\n"
+"POT-Creation-Date: 2026-11-17 20:06+0000\n"
+"PO-Revision-Date: 2026-11-17 20:06+0000\n"
+"Last-Translator: fandevelop\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: fand-vendor-store-blocks-for-wcfm\n"
+
+#: includes/fand-storefront-blocks-override.php
+msgid "-- Use the Store template --"
+msgstr "-- Utiliser le modèle Boutique --"
+
+#: includes/fand-storefront-blocks-override.php
+msgid "-- Use the default WCFM template --"
+msgstr "-- Utiliser le template par défaut WCFM --"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Active tab content"
+msgstr "Contenu de l'onglet actif"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Address icon settings"
+msgstr "Réglages Icône Adresse"
+
+#: includes/Blocks/store-widget-fallbacks.php
+msgid "All categories"
+msgstr "Toutes les catégories"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Ask the vendor + Follow"
+msgstr "Question au vendeur + Suivre"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Average rating"
+msgstr "Note moyenne"
+
+#: includes/fand-storefront-blocks-override.php
+msgid "Branch template page (Fand Vendor Store Blocks)"
+msgstr "Page Modèle Branche (Fand Vendor Store Blocks)"
+
+#: includes/Blocks/store-widget-fallbacks.php
+msgid "Categories"
+msgstr "Catégories"
+
+#: includes/Blocks/store-hours.php
+msgid "Closed"
+msgstr "Fermé"
+
+#. translators: %d: day number (1 to 7)
+#: includes/Blocks/store-hours.php
+msgid "Day %d"
+msgstr "Jour %d"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Dynamic banner"
+msgstr "Bannière dynamique"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Email icon settings"
+msgstr "Réglages Icône Email"
+
+#: includes/fand-storefront-blocks-override.php
+msgid "Event template page (Fand Vendor Store Blocks)"
+msgstr "Page Modèle Événement (Fand Vendor Store Blocks)"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Icon size (px)"
+msgstr "Taille de l'icône (px)"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Icon:"
+msgstr "Icône :"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Location map"
+msgstr "Carte de localisation"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Logo settings"
+msgstr "Réglages Logo"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Logo size (px)"
+msgstr "Taille du logo (px)"
+
+msgid "Native, atomic Gutenberg blocks to customize WCFM vendor store pages."
+msgstr ""
+"Blocs Gutenberg natifs et atomiques pour personnaliser les boutiques WCFM."
+
+#: includes/fand-storefront-blocks-context-routing.php
+msgid "No products were found matching your selection."
+msgstr "Aucun produit ne correspond à votre sélection."
+
+#: includes/Blocks/store-hours.php
+msgid "Open"
+msgstr "Ouvert"
+
+#: assets/js/fand-storefront-blocks.js includes/Blocks/store-hours.php
+msgid "Opening hours"
+msgstr "Horaires d'ouverture"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Or paste your custom SVG:"
+msgstr "Ou coller votre SVG personnalisé :"
+
+#: includes/fand-storefront-blocks-override.php
+msgid "Page used as the template for branch pages (pickup points)."
+msgstr ""
+"Page utilisée comme modèle pour les pages de branches (points de retrait)."
+
+#: includes/fand-storefront-blocks-override.php
+msgid "Page used as the template for event pages."
+msgstr "Page utilisée comme modèle pour les pages d'événements."
+
+#: includes/fand-storefront-blocks-override.php
+msgid "Page used as the template to display WCFM stores."
+msgstr "Page utilisée comme modèle pour l'affichage des boutiques WCFM."
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Phone icon settings"
+msgstr "Réglages Icône Téléphone"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Product search"
+msgstr "Recherche de produits"
+
+#: includes/Blocks/store-widget-fallbacks.php
+msgid "Search"
+msgstr "Rechercher"
+
+#: includes/Blocks/store-widget-fallbacks.php
+msgid "Search for a product…"
+msgstr "Rechercher un produit…"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Social Networks"
+msgstr "Réseaux Sociaux"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Store Description"
+msgstr "Description de la Boutique"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Store Name"
+msgstr "Nom de la Boutique"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Store categories"
+msgstr "Catégories de la boutique"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Store products"
+msgstr "Produits de la boutique"
+
+#: includes/fand-storefront-blocks-override.php
+msgid "Store template page (Fand Vendor Store Blocks)"
+msgstr "Page Modèle Boutique (Fand Vendor Store Blocks)"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Tabs (Products, About, Reviews…)"
+msgstr "Onglets (Produits, À propos, Avis…)"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Vendor Address"
+msgstr "Adresse Vendeur"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Vendor Badges"
+msgstr "Badges Vendeur"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Vendor Email"
+msgstr "Email Vendeur"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Vendor Logo ("
+msgstr "Logo Vendeur ("
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Vendor Phone"
+msgstr "Téléphone Vendeur"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Action Buttons"
+msgstr "WCFM - Boutons d'action"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Address"
+msgstr "WCFM - Adresse"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Categories Widget"
+msgstr "WCFM - Widget Catégories"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Email"
+msgstr "WCFM - Email"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Hours Widget"
+msgstr "WCFM - Widget Horaires"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Map Widget"
+msgstr "WCFM - Widget Carte"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Phone"
+msgstr "WCFM - Téléphone"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Rating"
+msgstr "WCFM - Note"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Search Widget"
+msgstr "WCFM - Widget Recherche"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Social Networks"
+msgstr "WCFM - Réseaux Sociaux"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Store Description"
+msgstr "WCFM - Description Boutique"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Store Name"
+msgstr "WCFM - Nom Boutique"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Store Products"
+msgstr "WCFM - Produits Boutique"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Store Tabs"
+msgstr "WCFM - Onglets Boutique"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Tab Content"
+msgstr "WCFM - Contenu de l'onglet"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Vendor Badges"
+msgstr "WCFM - Badges Vendeur"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Vendor Banner"
+msgstr "WCFM - Bannière Vendeur"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "WCFM - Vendor Logo"
+msgstr "WCFM - Logo Vendeur"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Widget settings"
+msgstr "Réglages du widget"
+
+#: assets/js/fand-storefront-blocks.js
+msgid "Widget title (empty = none)"
+msgstr "Titre du widget (vide = aucun)"

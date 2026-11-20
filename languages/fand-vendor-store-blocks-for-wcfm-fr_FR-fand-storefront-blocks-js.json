@@ -1,0 +1,153 @@
+{
+  "translation-revision-date": "2026-11-17 20:06+0000",
+  "generator": "manual",
+  "source": "assets/js/fand-storefront-blocks.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "lang": "fr_FR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "Icon:": [
+        "Icône :"
+      ],
+      "WCFM - Vendor Logo": [
+        "WCFM - Logo Vendeur"
+      ],
+      "Logo settings": [
+        "Réglages Logo"
+      ],
+      "Logo size (px)": [
+        "Taille du logo (px)"
+      ],
+      "Vendor Logo (": [
+        "Logo Vendeur ("
+      ],
+      "WCFM - Store Name": [
+        "WCFM - Nom Boutique"
+      ],
+      "Store Name": [
+        "Nom de la Boutique"
+      ],
+      "Icon size (px)": [
+        "Taille de l'icône (px)"
+      ],
+      "Or paste your custom SVG:": [
+        "Ou coller votre SVG personnalisé :"
+      ],
+      "WCFM - Phone": [
+        "WCFM - Téléphone"
+      ],
+      "Phone icon settings": [
+        "Réglages Icône Téléphone"
+      ],
+      "Vendor Phone": [
+        "Téléphone Vendeur"
+      ],
+      "WCFM - Address": [
+        "WCFM - Adresse"
+      ],
+      "Address icon settings": [
+        "Réglages Icône Adresse"
+      ],
+      "Vendor Address": [
+        "Adresse Vendeur"
+      ],
+      "WCFM - Email": [
+        "WCFM - Email"
+      ],
+      "Email icon settings": [
+        "Réglages Icône Email"
+      ],
+      "Vendor Email": [
+        "Email Vendeur"
+      ],
+      "WCFM - Social Networks": [
+        "WCFM - Réseaux Sociaux"
+      ],
+      "Social Networks": [
+        "Réseaux Sociaux"
+      ],
+      "WCFM - Vendor Badges": [
+        "WCFM - Badges Vendeur"
+      ],
+      "Vendor Badges": [
+        "Badges Vendeur"
+      ],
+      "WCFM - Store Description": [
+        "WCFM - Description Boutique"
+      ],
+      "Store Description": [
+        "Description de la Boutique"
+      ],
+      "WCFM - Vendor Banner": [
+        "WCFM - Bannière Vendeur"
+      ],
+      "Dynamic banner": [
+        "Bannière dynamique"
+      ],
+      "WCFM - Store Tabs": [
+        "WCFM - Onglets Boutique"
+      ],
+      "Tabs (Products, About, Reviews…)": [
+        "Onglets (Produits, À propos, Avis…)"
+      ],
+      "WCFM - Tab Content": [
+        "WCFM - Contenu de l'onglet"
+      ],
+      "Active tab content": [
+        "Contenu de l'onglet actif"
+      ],
+      "WCFM - Store Products": [
+        "WCFM - Produits Boutique"
+      ],
+      "Store products": [
+        "Produits de la boutique"
+      ],
+      "WCFM - Rating": [
+        "WCFM - Note"
+      ],
+      "Average rating": [
+        "Note moyenne"
+      ],
+      "WCFM - Action Buttons": [
+        "WCFM - Boutons d'action"
+      ],
+      "Ask the vendor + Follow": [
+        "Question au vendeur + Suivre"
+      ],
+      "WCFM - Search Widget": [
+        "WCFM - Widget Recherche"
+      ],
+      "Product search": [
+        "Recherche de produits"
+      ],
+      "WCFM - Categories Widget": [
+        "WCFM - Widget Catégories"
+      ],
+      "Store categories": [
+        "Catégories de la boutique"
+      ],
+      "WCFM - Map Widget": [
+        "WCFM - Widget Carte"
+      ],
+      "Location map": [
+        "Carte de localisation"
+      ],
+      "WCFM - Hours Widget": [
+        "WCFM - Widget Horaires"
+      ],
+      "Opening hours": [
+        "Horaires d'ouverture"
+      ],
+      "Widget settings": [
+        "Réglages du widget"
+      ],
+      "Widget title (empty = none)": [
+        "Titre du widget (vide = aucun)"
+      ]
+    }
+  }
+}

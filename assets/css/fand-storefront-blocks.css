@@ -1,0 +1,155 @@
+/* ==========================================================================
+   Fand Vendor Store Blocks for WCFM — styles par défaut, surchargeables par le thème
+
+   Sommaire
+   1. Bannière
+   2. Logo
+   3. Ligne icône + texte (téléphone, adresse, email)
+   4. Blocs "sections" WCFM
+   5. Conteneurs : mise en page boutique
+   6. Widgets de la barre latérale (recherche, catégories)
+
+   Les réglages natifs de Gutenberg (couleurs, marges, bordures, hauteur min.,
+   espacement des blocs...) sont posés en style inline par WordPress : ils
+   passent donc avant les valeurs par défaut ci-dessous.
+   ========================================================================== */
+
+
+/* ==========================================================================
+   1. Bannière
+   ========================================================================== */
+.fand-block-banner-container {
+    width: 100%;
+    min-height: var(--fand-banner-h, 300px);       /* hauteur réglée dans WCFM */
+    background-image: var(--fand-banner);          /* image fournie par le PHP */
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+/* Valeur par défaut à faible spécificité (:where) : le réglage « Marges internes » du bloc et le
+   thème l'emportent toujours. Aucun angle arrondi imposé : se règle dans le panneau Bordure. */
+:where(.fand-block-banner-container) {
+    padding: 40px;
+}
+
+/* Mobile : hauteur et image dédiées si elles existent */
+@media screen and (max-width: 640px) {
+    .fand-block-banner-container {
+        min-height: var(--fand-banner-mh, var(--fand-banner-h, 250px));
+        background-image: var(--fand-banner-m, var(--fand-banner));
+    }
+}
+
+
+/* ==========================================================================
+   2. Logo
+   ========================================================================== */
+.fand-block-logo img {
+    border-radius: inherit;   /* suit les angles réglés sur le bloc (panneau Bordure), aucun angle imposé */
+    object-fit: cover;
+    display: inline-block;
+}
+
+
+/* ==========================================================================
+   3. Ligne icône + texte (téléphone, adresse, email)
+   ========================================================================== */
+.fand-icon-line {
+    display: inline-flex;
+    align-items: center;    /* centre l'icône verticalement sur le texte */
+    gap: 6px;               /* espace icône / texte */
+}
+
+.fand-icon-line .fand-icon {
+    display: inline-flex;
+    align-items: center;
+    flex: 0 0 auto;         /* l'icône ne se déforme pas */
+    line-height: 0;         /* supprime l'espace fantôme sous le SVG */
+}
+
+.fand-icon-line .fand-icon svg {
+    display: block;         /* un SVG inline s'aligne sur la ligne de base du texte */
+    color: currentColor;
+}
+
+
+/* ==========================================================================
+   4. Blocs "sections" WCFM
+   ========================================================================== */
+
+/* Boutons « Question » et « Suivre » */
+.fand-block-actions .bd_icon_area {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* Corps de boutique complet */
+.fand-block-store-body .body_area {
+    display: block;
+}
+
+/* Réseaux sociaux : pas de fond imposé par WCFM, SAUF si un fond est choisi dans le bloc
+   (le réglage du bloc n'est donc jamais écrasé). */
+#wcfmmp-store .social_area:not(.has-background):not([style*="background"]),
+.fand-block-social.social_area:not(.has-background):not([style*="background"]) {
+    background: transparent !important;
+}
+
+
+/* ==========================================================================
+   5. Conteneurs : mise en page boutique (zone principale + barre latérale)
+   ========================================================================== */
+
+/* Zone principale : prend tout l'espace restant */
+.wp-block-fand-storefront-store-main-area {
+    flex: 1 1 0;
+    min-width: 0;           /* évite les débordements des listes de produits */
+}
+
+/* Barre latérale : largeur fixe */
+.wp-block-fand-storefront-store-sidebar-area {
+    flex: 0 0 280px;
+}
+
+/* Espace entre les blocs (valeur par défaut : le réglage « Espacement des blocs »
+   du panneau Dimensions du conteneur passe avant) */
+.wp-block-fand-storefront-store-sidebar-area,
+.wp-block-fand-storefront-store-main-area {
+    gap: 20px;
+}
+
+/* Mobile : la barre latérale et la zone principale passent l'une sous l'autre */
+@media screen and (max-width: 782px) {
+    .wp-block-fand-storefront-store-main-area,
+    .wp-block-fand-storefront-store-sidebar-area {
+        flex: 1 1 100%;
+    }
+}
+
+
+/* ==========================================================================
+   6. Widgets de la barre latérale (recherche, catégories)
+   ========================================================================== */
+
+/* Champ de recherche et menu des catégories : même largeur que la barre latérale */
+.fand-store-categories-select,
+.fand-block-search-container input[type="search"],
+.fand-block-search-container input[type="text"] {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* ==========================================================================
+   7. Carte de localisation (widget WCFM)
+   ========================================================================== */
+
+/* Dans une pile verticale alignée à gauche (bloc Empilement), un bloc sans contenu large
+   se réduit à sa largeur minimale (≈12 px) : la carte devient une bande invisible.
+   On la laisse prendre toute la largeur de sa colonne. Un réglage de largeur posé sur le bloc
+   (style en ligne) passe toujours avant. */
+.fand-block-location-container {
+    width: 100%;
+    box-sizing: border-box;
+}
