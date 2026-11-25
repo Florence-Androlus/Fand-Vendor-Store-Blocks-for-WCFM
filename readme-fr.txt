@@ -7,7 +7,7 @@ Tags: wcfm, woocommerce, blocks, marketplace, vendor
 Requires at least: 7.1
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.0
+Stable tag: 1.0.2
 Requires Plugins: woocommerce, wc-frontend-manager
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -85,6 +85,12 @@ Le plugin est écrit en anglais et prêt pour la traduction. Le français est di
 2. Personnalisation des styles natifs (couleurs, bordures, espacements) dans la barre latérale.
 
 == Journal des modifications ==
+
+= 1.0.2 =
+- Ajout url adresse
+
+= 1.0.1 =
+- Ajout reglage de page
 
 = 1.0.0 =
 - Version initiale publiée avec les 18 blocs modulaires WCFM Storefront et le support natif complet de Gutenberg.

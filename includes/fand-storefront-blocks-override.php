@@ -3,23 +3,13 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 
 /**
- * Page modèle à utiliser (filtrable : un autre plugin peut fournir un modèle différent,
- * par exemple pour les pages de branches / événements).
+ * Page modèle à utiliser. Le plugin ne gère que le modèle Boutique ; un add-on (Fand Pickup Points,
+ * par exemple) fournit un autre modèle pour ses propres pages (branches, événements...) avec le filtre
+ * fand_storefront_template_page_id, qui reçoit l'ID de la page Boutique et le contexte courant.
  */
 function fand_get_store_template_page_id() {
     $ctx     = fand_get_store_context();
     $page_id = get_option( 'fand_custom_store_page_id' );
-
-    // Modèles dédiés aux branches / événements (repli sur le modèle Boutique)
-    if ( isset( $ctx['type'] ) && 'branch' === $ctx['type'] ) {
-        $branch_page = get_option( 'fand_custom_branch_page_id' );
-        $event_page  = get_option( 'fand_custom_event_page_id' );
-        if ( ! empty( $ctx['is_event'] ) && $event_page ) {
-            $page_id = $event_page;
-        } elseif ( $branch_page ) {
-            $page_id = $branch_page;
-        }
-    }
 
     return absint( apply_filters( 'fand_storefront_template_page_id', $page_id, $ctx ) );
 }
@@ -35,27 +25,20 @@ function fand_is_store_context() {
 }
 
 /**
- * 1. Réglages > Lecture : une page modèle par type (boutique, branche, événement).
+ * 1. Réglages > Lecture : la page modèle Boutique. Un add-on peut ajouter ses propres champs avec le
+ * filtre fand_storefront_template_page_settings (clé = nom de l'option, valeur = label / none / help).
  * Le groupe doit être 'reading', sinon la valeur ne s'enregistre pas sur cette page.
  */
 function fand_get_template_page_settings() {
-    return array(
-        'fand_custom_store_page_id'  => array(
+    $fields = array(
+        'fand_custom_store_page_id' => array(
             'label' => __( 'Store template page (Fand Vendor Store Blocks)', 'fand-vendor-store-blocks-for-wcfm' ),
             'none'  => __( '-- Use the default WCFM template --', 'fand-vendor-store-blocks-for-wcfm' ),
             'help'  => __( 'Page used as the template to display WCFM stores.', 'fand-vendor-store-blocks-for-wcfm' ),
         ),
-        'fand_custom_branch_page_id' => array(
-            'label' => __( 'Branch template page (Fand Vendor Store Blocks)', 'fand-vendor-store-blocks-for-wcfm' ),
-            'none'  => __( '-- Use the Store template --', 'fand-vendor-store-blocks-for-wcfm' ),
-            'help'  => __( 'Page used as the template for branch pages (pickup points).', 'fand-vendor-store-blocks-for-wcfm' ),
-        ),
-        'fand_custom_event_page_id'  => array(
-            'label' => __( 'Event template page (Fand Vendor Store Blocks)', 'fand-vendor-store-blocks-for-wcfm' ),
-            'none'  => __( '-- Use the Store template --', 'fand-vendor-store-blocks-for-wcfm' ),
-            'help'  => __( 'Page used as the template for event pages.', 'fand-vendor-store-blocks-for-wcfm' ),
-        ),
     );
+
+    return apply_filters( 'fand_storefront_template_page_settings', $fields );
 }
 
 add_action( 'admin_init', function() {

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Fand Vendor Store Blocks for WCFM
  * Description: Native, atomic Gutenberg blocks to customize WCFM vendor store pages.
- * Version: 1.0.0
+ * Version: 1.0.2
  * Requires at least:  7.1
  * Requires PHP:       8.2
  * Requires Plugins:   woocommerce,wc-frontend-manager
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define( 'FAND_STOREFRONT_VERSION', '1.0.0' );
+define( 'FAND_STOREFRONT_VERSION', '1.0.2' );
 define( 'FAND_STOREFRONT_PATH', plugin_dir_path( __FILE__ ) );
 define( 'FAND_STOREFRONT_URL', plugin_dir_url( __FILE__ ) );
 

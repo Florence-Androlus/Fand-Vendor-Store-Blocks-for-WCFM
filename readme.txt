@@ -5,7 +5,7 @@ Tags: wcfm, woocommerce, blocks, marketplace, vendor
 Requires at least: 7.1
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.0
+Stable tag: 1.0.2
 Requires Plugins: woocommerce, wc-frontend-manager
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -83,6 +83,12 @@ The plugin is written in English and is translation-ready. French is available; 
 2. Customizing native styles (colors, borders, spacing) in the sidebar.
 
 == Changelog ==
+
+= 1.0.2 =
+- Added url adress
+
+= 1.0.1 =
+- Added page settings
 
 = 1.0.0 =
 - Initial release with 18 modular WCFM store blocks and full native Gutenberg support.
